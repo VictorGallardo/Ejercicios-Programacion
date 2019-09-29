@@ -12,8 +12,8 @@ public class Ejercicio09 {
     System.out.print("Por favor introduzca la altura del cono en cm: ");
     double altura = Double.parseDouble(System.console().readLine());
     
-    System.out.print("El volumen de cono es: " + (float)(3.14 * radio * 
-    radio * altura / 3) + " cm3");
+    System.out.print(("El volumen de cono es: ") + (3.14 * radio * 
+    radio * altura) / 3 + (" cm3"));
 	}
 }
 

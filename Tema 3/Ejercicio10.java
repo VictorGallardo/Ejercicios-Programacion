@@ -10,7 +10,7 @@ public class Ejercicio10 { // Tema 3
     System.out.print("Por favor, introduzca una cantidad en Mb: ");
     int mb = Integer.parseInt(System.console().readLine());
     
-    int kb = mb * 1000;
+    int kb = (mb * 1000);
     System.out.print(mb + " Mb Son: " + kb + " Kb");
     
     } 
