@@ -9,7 +9,7 @@ public class Ejercicio19 {
     
     int numero, digitos = 0;
     
-    System.out.println("Este programa le dira cuantos dijitos tiene el número introducido.");
+    System.out.println("Este programa le dira cuantos dígitos tiene el número introducido.");
     System.out.println("Por favor, introduzca un número (5 cifras max)");
     numero = Math.abs(Integer.parseInt(System.console().readLine()));
     
