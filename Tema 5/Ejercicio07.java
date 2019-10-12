@@ -6,26 +6,27 @@ public class Ejercicio07 {
   
   public static void main (String[] args) {
     
+    int clave = 1989;
+    int claveUsuario;
     int intentos = 4;
-    int numeroIntroducido;
-    boolean acertado = false;
-  
-    do {
-      System.out.print("Introduzca la clave de la caja fuerte: ");
-      numeroIntroducido = Integer.parseInt(System.console().readLine());
-      if (numeroIntroducido == 8888) {
-        acertado = true;
-     } else {
-        System.out.println("Clave incorrecta");
-     }
-      intentos--;
-    } while((intentos > 0) && (!acertado));
     
-    if (acertado) {
-      System.out.println("Ha abierto la caja fuerte.");
-    } else {
-      System.out.println("Lo siento, ha agotado las 4 oportunidades.");
-    }
+    System.out.print("Por favor introduzca la clave: ");
+    
+    do {
+      
+      claveUsuario = Integer.parseInt(System.console().readLine());
+     
+      if (clave == claveUsuario) {
+        System.out.print("La clave introducida es correcta"); 
+      
+      } else {
+        System.out.println("La clave introducida es incorrecta.");
+        intentos--;
+      }
+      if (intentos == 0) {
+        System.out.print("Se agotaron sus cuatro intentos.");
+      }
+    } while (clave != claveUsuario);
   }
 }
 
