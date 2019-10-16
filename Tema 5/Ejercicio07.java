@@ -2,9 +2,13 @@
  *
  * 
  */
+import java.util.Scanner; 
+ 
 public class Ejercicio07 {
   
   public static void main (String[] args) {
+    
+    Scanner s = new Scanner(System.in);
     
     int clave = 1989;
     int claveUsuario;
@@ -14,7 +18,7 @@ public class Ejercicio07 {
     
     do {
       
-      claveUsuario = Integer.parseInt(System.console().readLine());
+      claveUsuario = Integer.parseInt(s.nextLine());
      
       if (clave == claveUsuario) {
         System.out.print("La clave introducida es correcta"); 
@@ -26,7 +30,7 @@ public class Ejercicio07 {
       if (intentos == 0) {
         System.out.print("Se agotaron sus cuatro intentos.");
       }
-    } while (clave != claveUsuario);
+    } while ((clave != claveUsuario) && (intentos != 0));
   }
 }
 
