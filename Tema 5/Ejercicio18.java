@@ -14,12 +14,18 @@ public class Ejercicio18 {
     System.out.print("Por favor, introduzca otro número entero.");
     int segundoNumero = Integer.parseInt(System.console().readLine());
     
-    for ( int p = primerNumero ; p <= segundoNumero ; p += 7 ) {
-      System.out.print(p);
-
-        }
+    if (primerNumero < segundoNumero) {
+      for ( int p = primerNumero ; p <= segundoNumero ; p += 7 ) {
+        System.out.print(p + " - ");
       }
     }
+    if (primerNumero > segundoNumero) {
+      for ( int s = segundoNumero; s <= primerNumero ; s += 7 ) {
+        System.out.print(s + " - ");
+      }
+    }
+  }
+}
 
 
 
