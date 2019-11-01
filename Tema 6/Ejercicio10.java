@@ -23,8 +23,10 @@ public class Ejercicio10 {
         break;
       case 4:
         caracter = ".";
+        break;
       case 5:
         caracter = "|";  
+        break;
       case 6:
         caracter = "@";    
       default:
