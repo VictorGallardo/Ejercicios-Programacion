@@ -9,13 +9,13 @@ public class Ejercicio07 {
     String apuesta = "";
     int contador = 0 ;
         
-    for (int i = 0 ; i < 14 ; i++) {
+    for (int i = 1 ; i < 14 ; i++) {
       contador++;
       if (i <= 9 ) {
-       System.out.print(" " + contador);
+       System.out.print(" " + contador + ".");
       }
       if (i > 9) {
-        System.out.print(contador);
+        System.out.print(contador + ".");
       }
     for (int j = 0  ; j < 3 ; j++) {
     int quiniela = (int)(Math.random()*3) + 1;

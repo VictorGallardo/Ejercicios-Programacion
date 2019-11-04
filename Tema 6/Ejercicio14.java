@@ -28,8 +28,9 @@ public class Ejercicio14 {
             mayorOmenor = (System.console().readLine());
            }  
       }
+      }
   }
-}
+
 
 
 
