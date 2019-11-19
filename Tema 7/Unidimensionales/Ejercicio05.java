@@ -1,5 +1,6 @@
 
-package Ejercicios.tema7;
+
+
 import java.util.Scanner;
 /**
  *
