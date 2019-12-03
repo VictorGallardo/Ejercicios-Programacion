@@ -1,5 +1,4 @@
 
-package Ejercicios.tema7;
 /**
  *
  * @author victor
@@ -40,6 +39,7 @@ public class Ejercicio05 {
       }
     }
     
+    // Esta parte de codigo pinta la tabla
     System.out.print("       ");
     for(columna = 0; columna < 10; columna++){
       System.out.print(" | Columna " + columna);
@@ -65,11 +65,13 @@ public class Ejercicio05 {
       for(columna = 0; columna < 10; columna++){
         System.out.print("-----------|");
         Thread.sleep(100);
-    }
+      }
       
       System.out.println();
           
     }
+    // Tabla hasta aquí
+    
     System.out.println("\nEl máximo es: " + maximo + " y está en la fila " + filaMaximo + ", columna " + columnaMaximo);
     System.out.println("El mínimo es: " + minimo + " y está en la fila " + filaMinimo + ", columna " + columnaMinimo);
     System.out.println();

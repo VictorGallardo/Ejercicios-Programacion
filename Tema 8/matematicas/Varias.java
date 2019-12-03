@@ -1,3 +1,4 @@
+package matematicas;
 /**
  * LIBRERIA DE FUNCIONES MATEMÁTICAS
  *
@@ -20,9 +21,6 @@
  * juntaNumeros    | Pega dos números para formar uno solo.
  * 
  */
-
-package matematicas;
-
 public class Varias {
 
   
@@ -36,8 +34,8 @@ public class Varias {
  * 
  * Un número capicuo es el que se lee igual de los dos lados
  * 
- * x es el numero que qeremos comprovar 
- * return --> true o false
+ * @param x es el numero que qeremos comprovar 
+ * @return --> true o false
  * 
  */
   public static boolean esCapicua(long x) {
@@ -51,8 +49,8 @@ public class Varias {
  * 
  * Un número capicuo es el que se lee igual de los dos lados
  * 
- * x es el numero que qeremos comprovar 
- * return --> true o false
+ * @param x es el numero que qeremos comprovar 
+ * @return --> true o false
  * 
  */
   public static boolean esCapicua(int x) {
@@ -75,8 +73,8 @@ public class Varias {
  * entre el mismo y entre 1.
  * .............................................................................
  *
- * x es el número del que se quiere saber si es primo
- * return verdadero si el número que se pasa como parámetro es primo y falso
+ * @param x es el número del que se quiere saber si es primo
+ * @return verdadero si el número que se pasa como parámetro es primo y falso
  * en caso contrario
  * 
  */
