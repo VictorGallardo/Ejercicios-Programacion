@@ -1,5 +1,4 @@
 
-package tema7;
 /**
  *
  * @author victor
