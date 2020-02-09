@@ -13,7 +13,7 @@ public class Ejercicio01 {
 
   public static void main(String[] args) {
     
-    ArrayList<String> comp = new ArrayList<String>();
+    ArrayList<String> comp = new ArrayList<>();
     
     comp.add("Miguel");
     comp.add("Iván");

@@ -19,7 +19,7 @@ public class Ejercicio04 {
     ArrayList<String> palabras = new ArrayList<String>();
     
     System.out.println("Vaya introduciendo palabras y pulsando enter: ");
-    
+     
     for (int i = 0; i < 10; i++) {
       palabras.add(s.nextLine());
     }

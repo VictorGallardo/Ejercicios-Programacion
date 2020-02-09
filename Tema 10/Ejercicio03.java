@@ -16,7 +16,7 @@ public class Ejercicio03 {
     
     Scanner s = new Scanner (System.in);
     
-    ArrayList<Integer> n = new ArrayList<Integer>();
+    ArrayList<Integer> n = new ArrayList<>();
     
     System.out.println("Introduzca un numero y vaya pulsando enter");
     for (int i = 0; i < 10; i++) {
